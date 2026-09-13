@@ -34,12 +34,24 @@ const skillGroups = [
 ];
 
 const experiences = [
+    {
+    role: 'AI Studio Fellow',
+    company: 'Google (via Break Through Tech)',
+    location: 'Remote',
+    dates: 'Aug 2026 — Present',
+    number: '01',
+    details: [
+      'Building a 5-agent LLM pipeline (Extractor, Simplifier, Verifier, Refiner, Readability) on Gemini and Gemma via Google ADK to convert clinical documents into patient-friendly explanations without sacrificing factual accuracy.',
+      'Designing an LLM-as-judge Verifier calibrated against human-annotated medical QA data (MedAESQA), targeting Cohen\'s κ ≥ 0.6 agreement with expert faithfulness labels and <10% clinically meaningful hallucination rate.',
+      'Benchmarking 3+ models (Gemini, Gemma, external open-weight LLM) on faithfulness, 8th-grade readability, latency, and cost using a custom RAG pipeline (Gemini embeddings + ChromaDB) grounded in authoritative medical sources.',
+    ],
+  },
   {
     role: 'Software Developer Intern',
     company: 'Tvarit GmbH',
     location: 'Frankfurt, Germany',
     dates: 'June 2026 — Aug 2026',
-    number: '01',
+    number: '02',
     details: [
       'Developed AI-powered manufacturing applications across React, Node.js, FastAPI, Docker, and AWS, integrating backend services and cloud infrastructure for industrial analytics.',
       'Implemented and debugged visualization features that improved interpretability of AI-driven production insights.',
@@ -51,7 +63,7 @@ const experiences = [
     company: 'Manning College of Information and Computer Sciences',
     location: 'Amherst, MA',
     dates: 'Feb 2026 — Present',
-    number: '02',
+    number: '03',
     details: [
       'Led discussions for a 300+ student probability course, reinforcing concepts underlying machine learning algorithms.',
       'Partnered with faculty and TAs to ensure consistent evaluation standards and streamline course operations.',
@@ -62,7 +74,7 @@ const experiences = [
     company: 'Build UMass',
     location: 'Amherst, MA',
     dates: 'Sept 2025 — Present',
-    number: '03',
+    number: '04',
     details: [
       'Led cross-functional development of an AI platform helping restaurants reduce food waste through voice AI and ML.',
       'Gathered stakeholder needs and translated requirements into product specifications and implementation roadmaps.',
@@ -74,7 +86,7 @@ const experiences = [
     company: 'Kindness Matters',
     location: 'Remote',
     dates: 'Dec 2025 — Feb 2026',
-    number: '04',
+    number: '05',
     details: [
       'Built the frontend for an EdTech platform with React and HTML/CSS including a marketplace and purchase flows.',
       'Integrated frontend with REST APIs and MySQL to support transactions, course listings, and progress tracking.',
@@ -90,6 +102,14 @@ const projects = [
     tags: ['Python', 'Google Gemini API', 'ElevenLabs API', 'SpeechRecognition', 'React.js'],
     description: 'Engineered a multimodal AI assistant integrating Google Gemini, speech recognition, voice synthesis, and Retrieval-Augmented Generation to deliver multilingual emergency guidance across 74 languages.',
     detail: 'Integrated external APIs for geolocation, hospitals, weather, and emergency alerts while optimizing low-latency inference and contextual recommendations.',
+  },
+  {
+    title: 'Form-Guide',
+    type: 'AI / Voice Assistant / Accesibility',
+    link: 'https://github.com/supriyaahejib/form-guide',
+    tags: ['Chrome Extension (Manifest V3)', 'FastAPI', 'Python', 'Google Gemini API', 'Web Speech API'],
+    description: 'Built a voice-controlled Chrome extension that turns confusing bureaucratic forms into a guided conversation, auto-filling answers for the user."',
+    detail: 'Engineered a FastAPI + Groq (Llama 3.3) backend using structured JSON-schema output to reliably classify and translate dropdowns, conditional fields, and multiple input types thus eliminating free-text parsing failures.',
   },
   {
     title: 'PennyWise | Hackathon Winner',
