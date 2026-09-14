@@ -191,7 +191,7 @@ function App() {
               {item.label}
             </button>
           ))}
-          <a className="nav-link resume-link" href="https://drive.google.com/file/d/1yYFzS3AJAa2KwDoAnL0S73HnfF-nDlbL/view?usp=sharing" target="_blank" rel="noreferrer">Resume <ArrowUpRight size={13} /></a>
+          <a className="nav-link resume-link" href="https://docs.google.com/document/d/1JBxyph6ejkTmyVOiMHk1dMSb2OuhD26ngkakX51qJ_M/edit?usp=sharing" target="_blank" rel="noreferrer">Resume <ArrowUpRight size={13} /></a>
         </nav>
       </header>
 
