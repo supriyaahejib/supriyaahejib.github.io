@@ -108,7 +108,7 @@ const projects = [
     type: 'AI / Voice Assistant / Accessibility',
     link: 'https://github.com/supriyaahejib/form-guide',
     tags: ['Chrome Extension (Manifest V3)', 'FastAPI', 'Python', 'Google Gemini API', 'Web Speech API'],
-    description: '"Talk to your forms": Built a voice-controlled Chrome extension that turns confusing bureaucratic forms into a guided conversation, auto-filling answers for the user."',
+    description: '"Talk to your forms": Built a voice-controlled Chrome extension that turns confusing bureaucratic forms into a guided conversation, auto-filling answers for the user.',
     detail: 'Engineered a FastAPI + Groq (Llama 3.3) backend using structured JSON-schema output to reliably classify and translate dropdowns, conditional fields, and multiple input types thus eliminating free-text parsing failures.',
   },
   {
